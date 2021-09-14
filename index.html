@@ -1,122 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Roxy's Portfolio</title>
-    <link rel="stylesheet" href="portfolioFINAL.css" />
-    <!-- CSS only -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
-      rel="stylesheet"
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
-    
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>Album example · Bootstrap v5.1</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.1/examples/album/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="styles.css">
+    
 
-  </head>
+
+</head>
+  
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-        
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://kotzinr.github.io/">Home</a>
-                </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://kotzinr.github.io/Projects-page/">Projects page</a>
-            
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Repositories
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="https://github.com/kotzinr/PacMen-Factory.git">Pacmen factory</a></li>
-                <li><a class="dropdown-item" href="https://github.com/kotzinr/Eye-movement-.git">Eye movement</a></li>
-                <li><a class="dropdown-item" href="https://github.com/kotzinr/Bus-tracker.git">Bus tracker</a></li>
-                <li><hr class="dropdown-divider" /></li>
+    <header>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">
+                Roxy Kotzin is a dentist and (soon to be) full stack developer
+                living in Bend, OR. She is passionate about lifelong learning
+                and creating beauitful design. When she's not coding
+                you can find her reading sci-fi, rock climbing or planning her
+                family's next travel adventure.
+              </p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
                 <li>
-                  <a class="dropdown-item" href="#bottom">About</a>
+                    <a href="mailto:rkotzin@gmail.com" class="text-white"
+                      >Email me</a>
+                  </li>
+                <li>
+                  <a
+                    href="linkedin.com/in/roxy-k-03195421a” target="
+                    _blank
+                    class="text-white"
+                    >Connect on LinkedIn</a>
                 </li>
+                <li>
+                  <a href="https://github.com/kotzinr" class="text-white"
+                    >Connect on Github</a>
+                </li>
+                
               </ul>
-            </li>
-            <li class="nav-item">
-              
-            </li>
-          </ul>
-          <form class="d-flex">
-            
-            
-          </form>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    
-    <!-- JavaScript Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-      crossorigin="anonymous"
-    ></script>
-    
-    <h1 id="name">Roxy Kotzin</h1>
-    <h1 id="developer">Full stack developer (in progress) in Bend, OR</h1>
-    <img id="photo" src="picwithpuppies.jpg" height="400px" width="300px"/>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+     
+            <img id="biopic" src="picwithpuppies.jpg" width="100px">
+            <strong>Roxy Kotzin</strong>
+            
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarHeader"
+            aria-controls="navbarHeader"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
 
-    <iframe id="biovideo" width="450" height="320"
-    src="https://youtube.com/embed/8w_yDgxJsoo">
-    </iframe>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Roxy Kotzin</h1>
+            <p class="lead text-muted">
+              Full stack developer in Bend, OR
+            </p>
+            <p>
+              <a id="project-page" href="https://kotzinr.github.io/Projects-page/" class="btn btn-primary my-2">Project Page</a>
+                
+              <a href="#bottom" class="btn btn-secondary my-2">Bio</a>
+            </p>
+          </div>
+        </div>
+        <iframe id="biovideo" width="450" height="320"
+        src="https://youtube.com/embed/8w_yDgxJsoo">
+        </iframe>
+      </section>
+     
 
-    <h2 id="contact">contact: 
-    
-    <a class="social-icon" href="mailto:rkotzin@gmail.com">e-mail</a>
-        
-    <a class="social-icon" href=”linkedin.com/in/roxy-k-03195421a” target="_blank">LinkedIn
-    <ion-icon name="logo-linkedin"></ion-icon></a>
-
-    
-    <a class="social-icon" href="https://github.com/kotzinr" target="_blank">Github
-        <ion-icon name="logo-github"></ion-icon></a>
-    </h2>
-
-    <p id="bio">
-        Roxy Kotzin is a dentist and soon to be full stack developer living in Bend, Oregon. She decided on a career in dentistry at a young age as a way to combine art, science, technology, and as a way to give back to her community. She currently practices at the #1 rated practice in the city. <br>
-       
-        She received her doctorate in 2011 from Oregon Health and Science University School of Dentistry. She’s passionate about lifelong learning and always working to improve her skill set. She maintains active memberships in numerous professional organizations, both local and national. She is ready for a career shift in to programming and could not be more excited for this new challenge.<br>
-        
-        Her free time these days is mostly spent coding. Otherwise you’ll find her at home or outdoors with her husband, their toddler, dog and cat, reading, rock climbing, relaxing, or planning her family’s next travel adventure. 
-        <br>
-    </p>
+    <p id="bio">Roxy Kotzin is a dentist and soon to be full stack developer living in Bend, Oregon. She decided on a career in dentistry at a young age as a way to combine art, science, technology, and as a way to give back to her community. She currently practices at the #1 rated practice in the city. <br>
+    She received her doctorate in 2011 from Oregon Health and Science University School of Dentistry. She’s passionate about lifelong learning and always working to improve her skill set. She maintains active memberships in numerous professional organizations, both local and national. She is ready for a career shift in to programming and could not be more excited for this new challenge. <br>
+    Her free time these days is mostly spent coding. Otherwise you’ll find her at home or outdoors with her husband, their toddler, dog and cat, reading, rock climbing, relaxing, or planning her family’s next travel adventure.</p>
+      
+      
+     
   
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-
-  <div id="bottom"></div>
-  </body>
+      <!-- JavaScript Bundle with Popper -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"
+      ></script>
+      <footer class="text-muted py-5">
+        <div class="container">
+          <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+          </p>
+        </div>
+      </footer>
+      <div id="bottom"></div>
+    </body>
   </html>

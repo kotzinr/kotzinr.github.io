@@ -1,0 +1,33 @@
+#biopic {
+    padding-right: 10px;
+    float: left;
+}
+
+
+#bio {
+    padding-left: 20px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#biovideo {
+    margin-top: 0px;
+    border-radius: 10px;
+    
+}
+
+.fw-light {
+    margin-top: 0px;
+
+}
+
+#project-page {
+    background-color: cadetblue;
+    color: white;
+    border-color: cadetblue;
+}
+
+#project-page:hover {
+    background-color: aquamarine;
+    color: black;
+}
