@@ -6,19 +6,26 @@
 
 #bio {
     padding-left: 20px;
-    padding-right: 30px;
-    font-family: 'Roboto', sans-serif;
+    padding-right: 40px;
+    /* background-color: ghostwhite;  */
+    
+   
+}
+.biocolor {
+    /* background-color: ghostwhite;  */
+    padding-left: 20px;
+    
 }
 
 #biovideo {
     margin-top: 0px;
     border-radius: 10px;
+    padding-bottom: 50px;
     
 }
 
 .fw-light {
     margin-top: 0px;
-
 }
 
 #project-page {
@@ -31,3 +38,29 @@
     background-color: aquamarine;
     color: black;
 }
+
+#contactbottom {
+    margin-top: 50px;
+  }
+  
+  a:hover {
+    text-decoration-style: wavy; 
+    text-decoration-color: mediumturquoise; 
+  }
+  
+  #biobutton:hover {
+      background-color: mediumspringgreen;
+      color: black;
+}
+
+.bottomcolor {
+    background-color: mintcream;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.title-color {
+    background-color: mintcream;
+  }
+
