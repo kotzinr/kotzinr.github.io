@@ -1,14 +1,9 @@
-/*
- * Globals
- */
-
 /* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
-
 
 /* Custom default button */
 .btn-secondary,
@@ -19,7 +14,6 @@ a:hover {
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
 
 /*
  * Base structure
@@ -40,25 +34,15 @@ body {
   padding-bottom: 10%;
   padding-right: 10%;
   font-family: 'Roboto', sans-serif;
-
-  /*
-      ----------------------------------
-              UPDATE IMAGE BELOW
-      ----------------------------------
-  */
-
- 
   background: url('foliagecopy.jpg') no-repeat center center fixed;  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-
 }
 
 .cover-container {
   max-width: 42em;
-  
 }
 
 .cover-heading {
@@ -66,13 +50,13 @@ body {
   opacity: 0.3;
   margin-top: -90%;
 }
+
 /*
  * Header
  */
 .masthead {
   margin-bottom: 2rem;
 }
-
 
 .masthead-brand {
   margin-bottom: 0;
@@ -115,7 +99,6 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
@@ -126,7 +109,6 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
 
 /*
  * Footer
@@ -140,10 +122,9 @@ body {
   text-shadow: 1 3rem 3rem (0, 0, 0, .25);
   padding-top: 40px;
   padding-bottom: 40px;
-  }
+}
 
- 
-ion-icon {
+ ion-icon {
   font-size: 32px;
   color:rgba(255, 255, 255, 3);
   padding-right: 15px;
@@ -153,7 +134,6 @@ ion-icon {
 ion-icon:hover {
   color: mediumspringgreen;
 }
-
 
 .bd-placeholder-img {
   font-size: 1.125rem;
